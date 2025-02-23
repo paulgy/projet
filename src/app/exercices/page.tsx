@@ -17,9 +17,12 @@ export default function ExercicesPage() {
           <p className="text-gray-600 mb-4">
             Description courte de l&apos;exercice et de ses objectifs.
           </p>
+          <Link href="/exercices/exo">
+
           <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
             Commencer
           </button>
+          </Link>
         </div>
 
         <div className="border p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
